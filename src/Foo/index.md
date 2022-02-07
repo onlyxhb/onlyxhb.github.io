@@ -1,6 +1,6 @@
 ---
 nav:
-  title: Components
+  title: 相关链接
   path: /components
 ---
 
