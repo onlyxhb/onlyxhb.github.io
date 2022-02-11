@@ -1,6 +1,6 @@
 ---
 nav:
   title: GitHub
-  path: https://github.com/liyupi/code-nav
+  path: https://github.com/onlyxhb/onlyxhb.github.io
   order: 7
 ---
