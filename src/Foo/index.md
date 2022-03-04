@@ -40,6 +40,20 @@ $ yarn dev
 
   <tr>
     <td width="160" align="center">
+      <a target="_blank" href="https://onlystar.site/typescript/">
+        <img src="//yun.duiba.com.cn/developer_new/images/new/icons/typescript.jpeg"  width="42" />
+        <br />
+        <strong>TypeScript手册</strong>
+      </a>
+    </td>
+    <td width="160" align="center">
+      <a target="_blank" href="https://onlystar.site/custom-work-docs/">
+        <img src="https://yun.duiba.com.cn/developer_new/images/new/icons/icon_jfsc.png" width="42" />
+        <br />
+        <strong>工作文档</strong>
+      </a>
+    </td>
+    <td width="160" align="center">
       <a target="_blank" href="https://onlystar.site/code-nav-doc/">
         <img src="https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/logo.png" width="42" />
         <br />
@@ -58,20 +72,6 @@ $ yarn dev
         <img src="https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1642488515037-520981" width="42" />
         <br />
         <strong>React Beta</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
-      <a target="_blank" href="https://github.com/H5-Dooring/dooringx">
-        <img src="https://user-images.githubusercontent.com/11746742/104428726-c2c90300-55bf-11eb-9b84-d52a86050b9a.png"  width="42" />
-        <br />
-        <strong>门控</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
-      <a target="_blank" href="https://v2.formilyjs.org/">
-        <img src="https://yun.duiba.com.cn/80kziolo44.png" width="42" />
-        <br />
-        <strong>政史地</strong>
       </a>
     </td>
   </tr>

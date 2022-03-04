@@ -26,7 +26,7 @@ features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/f093e060-726e-471c-a53e-e988ed3f560c/kj9t9sk7_w144_h144.png
     title: 资产数据化能力
     desc: 一行命令将组件资产数据化，标准化的资产数据可与下游生产力工具串联
-footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by self
+footer: <a target="_blank" class="beian" href="https://beian.miit.gov.cn/">鄂ICP备17004871号-1</a> | Copyright © 2021-present<br />Powered by 随波逐流
 ---
 
 ## 谁在使用
