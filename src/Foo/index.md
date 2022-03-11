@@ -40,28 +40,28 @@ $ yarn dev
 
   <tr>
     <td width="160" align="center">
-      <a target="_blank" href="https://onlystar.site/typescript/">
+      <a target="_blank" href="/typescript/">
         <img src="//yun.duiba.com.cn/developer_new/images/new/icons/typescript.jpeg"  width="42" />
         <br />
         <strong>TypeScript手册</strong>
       </a>
     </td>
     <td width="160" align="center">
-      <a target="_blank" href="https://onlystar.site/custom-work-docs/">
+      <a target="_blank" href="/custom-work-docs/">
         <img src="https://yun.duiba.com.cn/developer_new/images/new/icons/icon_jfsc.png" width="42" />
         <br />
         <strong>工作文档</strong>
       </a>
     </td>
     <td width="160" align="center">
-      <a target="_blank" href="https://onlystar.site/code-nav-doc/">
+      <a target="_blank" href="/code-nav-doc/">
         <img src="https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/logo.png" width="42" />
         <br />
         <strong>编程导航</strong>
       </a>
     </td>
     <td width="160" align="center">
-      <a target="_blank" href="https://onlystar.site/javascript-guidebook/">
+      <a target="_blank" href="/javascript-guidebook/">
         <img src="https://img.mrsingsing.com/javascript-guidebook-favicon.png" width="42" />
         <br />
         <strong>JS知识图谱</strong>
