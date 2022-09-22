@@ -40,6 +40,27 @@ $ yarn dev
 
   <tr>
     <td width="160" align="center">
+      <a target="_blank" href="/vite-docs-cn/">
+        <img src="http://yun.onlystar.site/images/vitejs.svg" width="42" />
+        <br />
+        <strong>Vite中文网</strong>
+      </a>
+    </td>
+    <td width="160" align="center">
+      <a target="_blank" href="/linux-command/">
+        <img src="https://docs.onlystar.site/linux-command/img/favicon.ico" width="42" />
+        <br />
+        <strong>Linux命令</strong>
+      </a>
+    </td>
+    <td width="160" align="center">
+      <a target="_blank" href="/javascript-guidebook/">
+        <img src="https://img.mrsingsing.com/javascript-guidebook-favicon.png" width="42" />
+        <br />
+        <strong>JS知识图谱</strong>
+      </a>
+    </td>
+    <td width="160" align="center">
       <a target="_blank" href="/typescript/">
         <img src="//yun.duiba.com.cn/developer_new/images/new/icons/typescript.jpeg"  width="42" />
         <br />
@@ -47,6 +68,22 @@ $ yarn dev
       </a>
     </td>
     <td width="160" align="center">
+      <a target="_blank" href="/css_tricks/">
+        <img src="http://docs.onlystar.site/css_tricks/images/favicon.png" width="42" />
+        <br />
+        <strong>CSS Tricks</strong>
+      </a>
+    </td>
+    <td width="160" align="center">
+      <a target="_blank" href="/vue3-docs-cn/">
+        <img src="https://cn.vuejs.org/logo.svg"  width="42" />
+        <br />
+        <strong>Vue中文网</strong>
+      </a>
+    </td>
+  </tr>
+  <tr>
+  <td width="160" align="center">
       <a target="_blank" href="/custom-work-docs/">
         <img src="https://yun.duiba.com.cn/developer_new/images/new/icons/icon_jfsc.png" width="42" />
         <br />
@@ -61,21 +98,12 @@ $ yarn dev
       </a>
     </td>
     <td width="160" align="center">
-      <a target="_blank" href="/javascript-guidebook/">
-        <img src="https://img.mrsingsing.com/javascript-guidebook-favicon.png" width="42" />
-        <br />
-        <strong>JS知识图谱</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
       <a target="_blank" href="https://beta.reactjs.org/">
         <img src="https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1642488515037-520981" width="42" />
         <br />
         <strong>React Beta</strong>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="160" align="center">
       <a target="_blank" href="https://ggeditor.com">
         <img src="https://img.alicdn.com/tfs/TB1FFA1CFP7gK0jSZFjXXc5aXXa-214-200.png" width="42" />
@@ -97,6 +125,8 @@ $ yarn dev
         <strong>问题助手</strong>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="160" align="center">
       <a target="_blank" href="https://lightproxy.org">
         <img src="https://user-images.githubusercontent.com/5436704/81533849-83e00f00-9399-11ea-943d-ac5fd4653906.png" width="42" />
@@ -111,8 +141,6 @@ $ yarn dev
         <strong>拼音</strong>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="160" align="center">
       <a target="_blank" href="https://procomponents.ant.design/">
         <img src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" width="42" />
@@ -139,13 +167,6 @@ $ yarn dev
         <img src="https://gw.alipayobjects.com/mdn/rms_b5fcc5/afts/img/A*1NHAQYduQiQAAAAAAAAAAABkARQnAQ" width="42" />
         <br />
         <strong>雷克斯</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
-      <a target="_blank" href="https://umijs.org">
-        <img src="https://gw.alipayobjects.com/zos/bmw-prod/598d14af-4f1c-497d-b579-5ac42cd4dd1f/k7bjua9c_w132_h130.png" width="42" />
-        <br />
-        <strong>测试</strong>
       </a>
     </td>
   </tr>
