@@ -41,7 +41,7 @@ $ yarn dev
   <tr>
     <td width="160" align="center">
       <a target="_blank" href="/vite-docs-cn/">
-        <img src="http://yun.onlystar.site/images/vitejs.svg" width="42" />
+        <img src="https://vitejs.cn/logo.svg" width="42" />
         <br />
         <strong>Vite中文网</strong>
       </a>
