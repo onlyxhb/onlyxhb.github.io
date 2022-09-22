@@ -83,7 +83,14 @@ $ yarn dev
     </td>
   </tr>
   <tr>
-  <td width="160" align="center">
+    <td width="160" align="center">
+      <a target="_blank" href="https://beta.reactjs.org/">
+        <img src="https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1642488515037-520981" width="42" />
+        <br />
+        <strong>React Beta</strong>
+      </a>
+    </td>
+    <td width="160" align="center">
       <a target="_blank" href="/custom-work-docs/">
         <img src="https://yun.duiba.com.cn/developer_new/images/new/icons/icon_jfsc.png" width="42" />
         <br />
@@ -91,17 +98,17 @@ $ yarn dev
       </a>
     </td>
     <td width="160" align="center">
+      <a target="_blank" href="/nav-docs-cn/">
+        <img src="https://avatars1.githubusercontent.com/u/73879334?s=200&v=4" width="42" />
+        <br />
+        <strong>文档导航 </strong>
+      </a>
+    </td>
+    <td width="160" align="center">
       <a target="_blank" href="/code-nav-doc/">
         <img src="https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/logo.png" width="42" />
         <br />
         <strong>编程导航</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
-      <a target="_blank" href="https://beta.reactjs.org/">
-        <img src="https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1642488515037-520981" width="42" />
-        <br />
-        <strong>React Beta</strong>
       </a>
     </td>
     <td width="160" align="center">
@@ -116,13 +123,6 @@ $ yarn dev
         <img src="https://gw.alipayobjects.com/zos/antfincdn/0b4HzOcEJY/Graphin.svg" width="42" />
         <br />
         <strong>石墨</strong>
-      </a>
-    </td>
-    <td width="160" align="center">
-      <a target="_blank" href="https://actions-cool.github.io/issues-helper/">
-        <img src="https://avatars1.githubusercontent.com/u/73879334?s=200&v=4" width="42" />
-        <br />
-        <strong>问题助手</strong>
       </a>
     </td>
   </tr>
