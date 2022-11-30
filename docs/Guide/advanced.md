@@ -8,46 +8,18 @@ toc: menu
 
 让文档站点变成多语言这件事，对 dumi 用户来说是开箱即用的。比如我们使用英文编写了 `docs/index.md` 作为站点的首页，现在希望增加站点的中文版本，只需要创建一个带 `zh-CN` locale 后缀的同名 Markdown 文件即可：
 
-<Tree>
-  <ul>
-    <li>
-      docs
-      <ul>
-        <li>
-          index.md
-          <small>已有的英文版首页</small>
-        </li>
-        <li>
-          index.zh-CN.md
-          <small>新创建的中文版首页</small>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</Tree>
+```bash
+.
+├── docs
+│   ├── index.md        # 已有的中文版首页
+│   └── index.en-US.md  # 新创建的英文版首页
+```
 
 这样一来，当用户访问 `www.example.com` 时 dumi 会渲染英文版首页，访问 `www.example.com/zh-CN` 时 dumi 会渲染中文版首页，对于其他页面也是一样的，就像你正在浏览的 dumi 的官网一样。
 
 ### 默认语言
 
 在 dumi 的默认配置中，`en-US` 是默认语言，`zh-CN` 是第二种语言，如果你需要修改这个配置，比如修改默认语言、或者添加更多语言，请查看 [配置项 - locales](/zh-CN/config#locales) 配置项。
-
-### 翻译缺失
-
-文档的翻译工作通常都是渐进式进行的，势必会存在『文档翻译到一半』的过渡期，为了让这个过渡期更加友好，**dumi 会将默认语言的文档作为未翻译语言的兜底文档**，举个例子：
-
-<Tree>
-  <ul>
-    <li>
-      docs
-      <ul>
-        <li>index.md</li>
-        <li>index.zh-CN.md</li>
-        <li>missing.md</li>
-      </ul>
-    </li>
-  </ul>
-</Tree>
 
 很显然 `missing.zh-CN.md` 是缺失的，用户在访问 `www.example.com/zh-CN/missing` 时，dumi 会把 `missing.md` 的内容呈现给用户。
 

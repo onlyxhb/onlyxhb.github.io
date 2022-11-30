@@ -1,6 +1,6 @@
 ---
-sidemenu: false
 nav:
+  order: 3
   title: 相关链接
   path: /components
 ---
@@ -41,7 +41,7 @@ $ yarn dev
   <tr>
     <td width="160" align="center">
       <a target="_blank" href="/vite-docs-cn/">
-        <img src="https://vitejs.cn/logo.svg" width="42" />
+        <img src="https://docs.onlystar.site/vite-docs-cn/logo.svg" width="42" />
         <br />
         <strong>Vite中文网</strong>
       </a>
@@ -55,7 +55,7 @@ $ yarn dev
     </td>
     <td width="160" align="center">
       <a target="_blank" href="/javascript-guidebook/">
-        <img src="https://img.mrsingsing.com/javascript-guidebook-favicon.png" width="42" />
+        <img src="https://docs.onlystar.site/javascript-guidebook/favicon.ico" width="42" />
         <br />
         <strong>JS知识图谱</strong>
       </a>
@@ -76,7 +76,7 @@ $ yarn dev
     </td>
     <td width="160" align="center">
       <a target="_blank" href="/vue3-docs-cn/">
-        <img src="https://cn.vuejs.org/logo.svg"  width="42" />
+        <img src="http://docs.onlystar.site/vue3-docs-cn/logo.svg"  width="42" />
         <br />
         <strong>Vue中文网</strong>
       </a>
@@ -186,12 +186,3 @@ $ yarn dev
   <img data-type="dingtalk" src="https://gw.alipayobjects.com/zos/bmw-prod/ce3439e7-3bf9-4031-b823-6473439ec9e6/kxkiis4c_w1004_h1346.jpeg" width="300" />
   <img data-type="wechat" src="https://gw.alipayobjects.com/zos/bmw-prod/c18bc2a5-719a-48ca-b225-c79ef88bfb43/k7m10ymd_w1004_h1346.jpeg" width="300" />
 </div>
-
-## 例子
-
-```tsx
-import React from 'react'
-import { Foo } from 'onlyxhb.github.io'
-
-export default () => <Foo title="第一个例子" />
-```

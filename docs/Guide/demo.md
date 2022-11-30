@@ -1,3 +1,8 @@
+---
+title: Demo 理念
+order: 5
+---
+
 # Demo 理念
 
 dumi 从诞生之初，就有一条重要的 Demo 编写理念：**开发者应该像用户一样写 Demo**。
