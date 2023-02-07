@@ -1,26 +1,26 @@
 ---
 nav:
-  title: Guide
+  title: 指南
   order: -1
 group:
-  title: Intro
+  title: 介绍
   order: -1
 toc: content
 ---
 
-# What?
+# 什么?
 
-A theme for [**dumi2**](https://github.com/umijs/dumi) developed using [**Chakra-UI**](https://github.com/chakra-ui/chakra-ui)
+一款使用 [**Chakra-UI**](https://github.com/chakra-ui/chakra-ui) 开发的 [**dumi2**](https://github.com/umijs/dumi) 的主题
 
-## Features
+## 特性
 
-- 🎨 **Themeable**: Customize any part of our components to match your design needs.
-- 🚧 **Accessible**: Chakra UI strictly follows WAI-ARIA standards for all components.
-- 🌗 **Light and Dark UI**: Optimized for multiple color modes. Use light or dark, your choice.
-- 🪄 **Fully Typed**: Full TypeScript typing.
-- 🧱 **Rich Features**: Out-of-the-box include components & colors
-- 🔍 **Doc Search**: CMDK 、 DocSearch both can.
+- 🎨 **主题**: 定制组件的任何部分，以配合您的设计需求
+- 🚧 **无障碍**: Chakra UI 的所有组件都严格遵循 WAI-ARIA 标准
+- 🌗 **暗黑模式**: 针对多种颜色模式进行了优化。使用浅色或深色，任你选择
+- 🪄 **类型**: 完全类型化
+- 🧱 **丰富特性**: 开箱即用的颜色和组件
+- 🔍 **文档搜索**: CMDK 、 DocSearch 随你选择
 
-## Issues
+## 问题反馈
 
-If you have any questions or suggestions for improvement, please feel free to post your feedback on [**GitHub Issues**](https://github.com/innocces/dumi-theme-chakra/issues) or [**Discord**](https://discord.gg/N82HK72uJk)
+如果在使用过程中发现任何问题、或者有改善建议，欢迎在 [**GitHub Issues**](https://github.com/innocces/dumi-theme-chakra/issues) 或 [**Discord**](https://discord.gg/N82HK72uJk) 进行反馈

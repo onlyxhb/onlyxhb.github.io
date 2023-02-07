@@ -1,27 +1,27 @@
 ---
-nav: Guide
+nav: 指南
 group:
-  title: Basic
+  title: 基础
   order: 0
 ---
 
-# Markdown
+# Markdown 增强
 
-We have added some common components to **dumi**'s existing **markdown** built-in components
+我们在 **dumi** 现有的 **markdown** 内置组件中增加了一些常用的组件
 
 ## SettingPanel
 
-A panel component that allows global debugging of theme colors. You can use this component to preview the built-in adaptation styles for all color schemes
+一个可以全局调试主题色的设置面板组件. 你可以使用该组件预览内置的所有色系的适配样式
 
 ```markdown
 <SettingPanel />
 ```
 
-Rendering effects can be seen in the hover settings button on the right side of the document
+渲染效果可查看文档右侧的悬浮设置按钮
 
 ## Alert
 
-Alerts are used to communicate a state that affects a system, feature or page.
+用来传达影响系统、功能或页面的状态.
 
 ### Status
 
@@ -155,7 +155,7 @@ Alerts are used to communicate a state that affects a system, feature or page.
 
 ## Ad
 
-show ad or invite info
+展示广告或者邀请信息
 
 ```jsx | pure
 <Ad

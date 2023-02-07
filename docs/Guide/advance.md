@@ -1,23 +1,23 @@
 ---
-nav: Guide
+nav: 指南
 group:
-  title: Advance
+  title: 进阶
   order: 2
 toc: content
 ---
 
-# Theme Setting
+# 主题配置
 
 ## social
 
-- type: `SocialMap`
-- default: `undefined`
+- 类型: `SocialMap`
+- 默认值: `undefined`
 
-socails config: like github & discord
+社交媒体配置: 如 github & discord
 
 ```ts | pure
 /**
- * @description social type enum
+ * @description 社交类型枚举
  */
 export enum SOCIALS {
   /**
@@ -31,19 +31,19 @@ export enum SOCIALS {
 }
 
 /**
- * @description social item config
+ * @description 社交项目配置
  */
 export type SocialItem = {
   /**
-   * @descripion alt or label message
+   * @descripion alt 或 按钮信息
    */
   name: string;
   /**
-   * @description element a href sources
+   * @description 链接地址
    */
   link: string;
   /**
-   * @description anchor open way
+   * @description 页面打开方式
    * @default __blank
    */
   target: AnchorHTMLAttributes<HTMLAnchorElement>['target'];
@@ -54,59 +54,59 @@ export type SocialMap = Record<SOCIALS, SocialItem>;
 
 ## helmetIcon
 
-- type: `string`
-- default: `undefined`
+- 类型: `string`
+- 默认值: `undefined`
 
-splitor of helmet generate word: `${themeConfig.title} ${helmetIcon} ${subTitle}`
+helmet 生成 title 的 分割符: `${themeConfig.title} ${helmetIcon} ${subTitle}`
 
 ## description
 
-- type: `string`
-- default: `package.json.description`
+- 类型: `string`
+- 默认值: `package.json.description`
 
-head meta description
+head meta 标签 description
 
 ## keywords
 
-- type: `string[]`
-- default: `package.json.keywords`
+- 类型: `string[]`
+- 默认值: `package.json.keywords`
 
-head meta keywords
+head meta 标签 keywords
 
 ## author
 
-- type: `string`
-- default: `package.json.author`
+- 类型: `string`
+- 默认值: `package.json.author`
 
-head meta author
+head meta 标签 author
 
 ## search
 
-- type: `boolean | Search`
-- default: `true`
+- 类型: `boolean | Search`
+- 默认值: `true`
 
-whether use search feature, when boolean, open or close. use object to config more
+是否使用搜索功能, 若配置为布尔值, 展示或关闭. 也可通过更多详细配置
 
 ```ts | pure
 export enum SEARCHTYPE {
   /**
-   * @description use cmdk & dumi origin search
+   * @description 使用cmdk 展示 dumi自带搜索功能
    */
   CMDK = 'cmdk',
   /**
-   * @description use algolia docsearch for search
+   * @description 使用 algolia docsearch 搜索功能
    */
   DOCSEARCH = 'docsearch'
 }
 
 export type Search = {
   /**
-   * @description site search type
+   * @description 搜索类型
    * @default SEARCHTYPE.CMDK
    */
   type: SEARCHTYPE;
   /**
-   * @description DocSearchConfig
+   * @description DocSearch 配置
    */
   config?: DocSearchConfig;
 };
@@ -114,9 +114,9 @@ export type Search = {
 
 ### CMDK
 
-default search engine is `<CMDK />`
+默认的搜索引擎为 `<CMDK />`
 
-- use boolean: `true` setting
+- 使用布尔类型: `true`
 
 ```ts | pure
 {
@@ -124,7 +124,7 @@ default search engine is `<CMDK />`
 }
 ```
 
-- use `Search` type setting
+- 使用 `Search` 类型配置
 
 ```ts | pure
 {
@@ -136,7 +136,7 @@ default search engine is `<CMDK />`
 
 ### DOCSEARCH
 
-use algolia docsearch for search
+使用 algolia docsearch 搜索
 
 ```ts | pure
 {
@@ -144,15 +144,15 @@ use algolia docsearch for search
     type: 'docsearch',
     config: {
       /**
-       * @description Your Algolia application ID.
+       * @description 你的 Algolia application ID.
        */
       appId: string;
       /**
-       * @description Your Algolia Search API key.
+       * @description 你的 Algolia Search API key.
        */
       apiKey: string;
       /**
-       * @description Your Algolia index name.
+       * @description 你的 Algolia index name.
        */
       indexName: string;
     }
@@ -162,31 +162,31 @@ use algolia docsearch for search
 
 ## announcementBar
 
-- type: `AnnouncementBarConfig`
-- default: `undefined`
+- 类型: `AnnouncementBarConfig`
+- 默认值: `undefined`
 
-announcementBar of top container setting
+页面顶部的声明通知条配置
 
 ```ts | pure
 export type AnnouncementBarConfig = {
   /**
-   * @description whether announce closeable
+   * @description 是否可关闭
    */
   isCloseable?: boolean;
   /**
-   * @description announce text color
+   * @description 文字颜色
    */
   textColor?: string;
   /**
-   * @description announce background color
+   * @description 背景色
    */
   backgroundColor?: string;
   /**
-   * @description announce dom id
+   * @description dom id
    */
   id: string;
   /**
-   * @description announce content, like html string
+   * @description 内容，可以使用html
    */
   content: string;
 };
@@ -194,15 +194,15 @@ export type AnnouncementBarConfig = {
 
 ## hero
 
-- type: `HeroConfig`
-- default: `undefined`
+- 类型: `HeroConfig`
+- 默认值: `undefined`
 
-hero setting for homepage
+首页 hero 配置
 
 ```ts | pure
 export type HeroConfig = {
   /**
-   * @description whether show version badge
+   * @description 是否展示版本徽标
    */
   showVersionBadge?: boolean;
 };
@@ -210,29 +210,29 @@ export type HeroConfig = {
 
 ## thumbBackground
 
-- type: `boolean | string`
-- default: `false`
+- 类型: `boolean | string`
+- 默认值: `false`
 
-doc body background image. if boolean. use default background image
+文档背景图. 若配置为布尔值则展示内置的默认背景图
 
 ## settingPanelVisible
 
-- type: `boolean`
-- default: `false`
+- 类型: `boolean`
+- 默认值: `false`
 
-setting panel visiblity
+设置面板
 
 ## code
 
-- type: `Code`
-- default: `undefined`
+- 类型: `Code`
+- 默认值: `undefined`
 
-`<SourceCode />` setting
+`<SourceCode />` 组件设置
 
 ```ts | pure
 export type Code = {
   /**
-   * @description prism themes
+   * @description prism 主题
    * @default { dark: PRISMTHEME.VSDARK, light: PRISMTHEME.VSLIGHT }
    */
   theme?: CodeTheme;

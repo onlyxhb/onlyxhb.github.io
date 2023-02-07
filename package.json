@@ -12,12 +12,14 @@
   "scripts": {
     "start": "dumi dev",
     "build": "dumi build",
-    "preview": "dumi preview"
+    "preview": "dumi preview",
+    "deploy": "npm run build && gh-pages -d docs-dist"
   },
   "devDependencies": {
     "dumi": "^2.0.12",
     "dumi-theme-chakra": "^0.0.7",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "gh-pages": "^4.0.0"
   },
   "repository": {
     "type": "git",

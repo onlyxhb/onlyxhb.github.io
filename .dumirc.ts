@@ -1,25 +1,18 @@
 import { defineConfig } from 'dumi';
 
 import { description, keywords, author } from './package.json';
-console.log('process.env.gh', process.env.gh);
-
-function withGH(uri: string): string {
-  const prefix = process.env.gh ? '/dumi-theme-chakra/' : '/';
-  return [prefix, uri].join('');
-}
 
 export default defineConfig({
   // disable mfsu for HMR
   mfsu: false,
-  base: withGH(''),
-  publicPath: withGH(''),
+  base: '/',
+  publicPath: '/',
   locales: [
-    { id: 'en-US', name: 'English' },
     { id: 'zh-CN', name: '中文' }
   ],
   devtool: 'cheap-module-source-map',
   sitemap: {
-    hostname: 'https://dumi-theme-chakra.deno.dev'
+    hostname: 'https://docs.onlystar.site'
   },
   // all in one to fix ConfigProvider error
   codeSplitting: {
@@ -29,6 +22,7 @@ export default defineConfig({
   resolve: {
     entryFile: './src/index.ts'
   },
+  outputPath: 'docs-dist',
   alias: {
     example: require.resolve('./src/index.ts')
   },
@@ -45,12 +39,12 @@ export default defineConfig({
     author,
     social: {
       github: {
-        name: 'dumi-theme-chakra',
-        link: 'https://github.com/innocces/dumi-theme-chakra'
+        name: '随波逐流',
+        link: 'https://github.com/onlyxhb/onlyxhb.github.io'
       },
       discord: {
         name: 'maryoku-ui-discord',
-        link: 'https://discord.gg/N82HK72uJk'
+        link: 'https://www.baidu.com'
       }
     },
     search: {
@@ -58,12 +52,12 @@ export default defineConfig({
       config: {
         appId: 'CQNSFVVYJA',
         apiKey: '2c50fefc041d570e018d5d9f569086b7',
-        indexName: 'dumi-theme-chakra'
+        indexName: 'onlystar'
       }
     },
     hero: {
       showVersionBadge: true
     },
-    footer: `Copyright © ${new Date().getFullYear()} onlyxhb`
+    footer: `Copyright © 2019-${new Date().getFullYear()} Powered by onlyxhb`
   }
 });
