@@ -1,45 +1,28 @@
 {
-  "private": true,
+  "private": "true",
   "name": "onlyxhb.github.io",
+  "description": "随波逐流的痛苦你们不懂",
   "version": "1.0.0",
+  "author": "onlyxhb@qq.com",
+  "keywords": [
+    "dumi",
+    "dumi-theme",
+    "chakra"
+  ],
   "scripts": {
-    "prepare": "dumi setup",
     "start": "dumi dev",
-    "docs:build": "dumi build",
-    "docs:deploy": "gh-pages -d docs-dist",
-    "f:build": "father-build",
-    "deploy": "npm run docs:build && npm run docs:deploy",
-    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
-    "prepublishOnly": "npm run build"
-  },
-  "module": "es/index.js",
-  "typings": "es/index.d.ts",
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,jsx,less,md,json}": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "prettier --parser=typescript --write"
-    ]
-  },
-  "dependencies": {
-    "react": "^18.2.0"
+    "build": "dumi build",
+    "preview": "dumi preview"
   },
   "devDependencies": {
-    "@types/jest": "^29.2.3",
-    "@types/react": "^18.0.25",
-    "@umijs/fabric": "^3.0.0",
-    "dumi": "^2.0.7",
-    "eslint": "^8.28.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "father-build": "^1.22.5",
-    "gh-pages": "^4.0.0",
-    "lint-staged": "^13.0.4",
-    "prettier": "^2.8.0",
-    "yorkie": "^2.0.0"
+    "dumi": "^2.0.12",
+    "dumi-theme-chakra": "^0.0.7",
+    "typescript": "^4.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onlyxhb/onlyxhb.github.io.git",
+    "branch": "master",
+    "directory": "example"
   }
 }
