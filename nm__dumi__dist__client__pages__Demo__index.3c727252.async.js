@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkonlyxhb_github_io=self.webpackChunkonlyxhb_github_io||[]).push([[9],{12535:function(f,n,e){e.r(n),e.d(n,{default:function(){return r}});var o=e(92244),a=e(67294),u=function(){var d=(0,o.UO)(),m=d.id,s=(0,o.WF)(),i=s.demos,c=i[m]||{},t=c.component;return t&&(0,a.createElement)(t)},r=u}}]);
