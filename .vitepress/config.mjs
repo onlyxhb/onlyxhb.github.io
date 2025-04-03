@@ -19,6 +19,7 @@ export default defineConfig({
   themeConfig: {
     logo: { src: '/logo.png', width: 120 },
     footer: false,
+    returnToTopLabel: '返回顶部',
     nav: [
       { text: '首页', link: '/' },
       { text: '为患者', link: '/patient' },
