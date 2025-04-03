@@ -1,26 +1,17 @@
 {
-  "private": "true",
-  "name": "onlyxhb.github.io",
-  "description": "随波逐流的痛苦你们不懂",
+  "name": "official-website",
   "version": "1.0.0",
-  "type": "module",
-  "author": "onlyxhb@qq.com",
-  "keywords": [
-    "vite",
-    "vite-press"
-  ],
+  "description": "对于个人，看病无忧，大病保障，帮助更多人获得可负担的更好治疗；对于医生，行医无忧，执业保障；对于保险，为客户提供可负担的、更优质的健康保障",
+  "main": "index.js",
   "scripts": {
-    "start": "vitepress",
-    "build": "vitepress build",
+    "start": "vitepress dev",
     "preview": "vitepress preview",
-    "deploy": "npm run build && gh-pages -d docs-dist"
+    "build": "vitepress build"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^6.0.0",
-    "vitepress": "^1.0.0-rc.10"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/onlyxhb/onlyxhb.github.io.git"
+    "vitepress": "^1.6.3"
   }
 }
