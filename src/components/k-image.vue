@@ -1,9 +1,9 @@
 <template>
-  <img :src="`/images/${src}.png`" :style="wrapStyle" />
+  <img :src="`https://www.kkkf.cn/images/${src}.png`" class="custom-img" :style="wrapStyle" />
 </template>
 
 <script setup>
-import { defineProps, computed } from 'vue'
+import { computed } from 'vue'
 
 const props = defineProps({
   src: String,

@@ -146,4 +146,15 @@ const list = [
   text-decoration: none;
   color: rgba(255,255,255,0.70);
 }
+
+@media (max-width: 767px) {
+  .custom-footer .footer-social {
+    flex-direction: column;
+  }
+
+  .footer-social .social-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
 </style>
