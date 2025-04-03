@@ -3,28 +3,24 @@
   "name": "onlyxhb.github.io",
   "description": "随波逐流的痛苦你们不懂",
   "version": "1.0.0",
+  "type": "module",
   "author": "onlyxhb@qq.com",
   "keywords": [
-    "dumi",
-    "dumi-theme",
-    "chakra"
+    "vite",
+    "vite-press"
   ],
   "scripts": {
-    "start": "dumi dev",
-    "build": "dumi build",
-    "preview": "dumi preview",
+    "start": "vitepress",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
     "deploy": "npm run build && gh-pages -d docs-dist"
   },
   "devDependencies": {
-    "dumi": "^2.0.12",
-    "dumi-theme-chakra": "^0.0.7",
-    "typescript": "^4.9.5",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^6.0.0",
+    "vitepress": "^1.0.0-rc.10"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/onlyxhb/onlyxhb.github.io.git",
-    "branch": "master",
-    "directory": "example"
+    "url": "https://github.com/onlyxhb/onlyxhb.github.io.git"
   }
 }
