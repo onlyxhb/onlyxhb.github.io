@@ -6,12 +6,14 @@
   "scripts": {
     "start": "vitepress dev",
     "preview": "vitepress preview",
-    "build": "vitepress build"
+    "build": "vitepress build",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^1.6.3"
+    "vitepress": "^1.6.3",
+    "gh-pages": "^4.0.0"
   }
 }

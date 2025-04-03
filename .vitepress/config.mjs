@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-Hans',
-  title: "随波逐流",
+  title: " ",
   titleTemplate: ':title-以患者为中心，疗效为导向，赋能多方协作共赢的价值医疗平台',
   description: "对于个人，看病无忧，大病保障，帮助更多人获得可负担的更好治疗；对于医生，行医无忧，执业保障；对于保险，为客户提供可负担的、更优质的健康保障",
   head: [
@@ -17,7 +17,7 @@ export default defineConfig({
   },
   appearance: false,
   themeConfig: {
-    // logo: { src: '/logo.png', width: 120 },
+    logo: { src: '/logo.png', width: 120 },
     footer: false,
     nav: [
       { text: '首页', link: '/' },

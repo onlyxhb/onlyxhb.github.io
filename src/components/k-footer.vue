@@ -12,10 +12,8 @@
       </div>
     </div>
     <div class="footer-opa">
-      <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo">
-        鄂ICP备17004871号-1
-      </a>
-      &nbsp;&nbsp;
+      <span>Made with ❤ by onlystar</span>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
       <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo">
         鄂ICP备17004871号-1
       </a>
@@ -32,6 +30,8 @@ const list = [
       { title: 'uniapp', url: 'https://uniapp.dcloud.net.cn/' },
       { title: 'unibest', url: 'https://unibest.tech/' },
       { title: 'electron-vite', url: 'https://cn.electron-vite.org/' },
+      { title: 'deepseek', url: 'https://chat.deepseek.com/' },
+      { title: 'kimi', url: 'https://kimi.moonshot.cn/' },
       { title: '文心一言', url: 'https://yiyan.baidu.com/' },
       { title: '腾讯元宝', url: 'https://yuanbao.tencent.com/chat' },
       { title: '扣子', url: 'https://www.coze.cn/' }
@@ -45,7 +45,9 @@ const list = [
       { title: 'React', url: 'https://zh-hans.react.dev/' },
       { title: 'vitepress', url: 'https://vitepress.dev/zh/' },
       { title: 'flutter', url: 'https://flutter.cn/' },
-      { title: 'nuxt3', url: 'https://nuxt.zhcndoc.com/' }
+      { title: 'nuxt3', url: 'https://nuxt.zhcndoc.com/' },
+      { title: 'leetcode', url: 'https://leetcode.cn/' },
+      { title: 'MDN', url: 'https://developer.mozilla.org/zh-CN/docs/Web' },
     ] 
   },
   {
@@ -56,18 +58,21 @@ const list = [
       { title: 'CSS Tricks', url: 'https://docs.onlystar.site/css_tricks/' },
       { title: 'Linux命令', url: 'https://docs.onlystar.site/linux-command/' },
       { title: '编程导航', url: 'https://docs.onlystar.site/code-nav-doc/' },
-      { title: '文档导航', url: 'https://docs.onlystar.site/nav-docs-cn/' }
+      { title: '文档导航', url: 'https://docs.onlystar.site/nav-docs-cn/' },
+      { title: 'Vite', url: 'https://docs.onlystar.site/vite-docs-cn/' },
+      { title: 'Vue3', url: 'https://docs.onlystar.site/vue3-docs-cn/' },
+      { title: '工作文档', url: 'https://docs.onlystar.site/custom-work-docs/' },
     ] 
   },
   {
     title: '更多',
     links: [
-      { title: 'Vite', img: 'https://docs.onlystar.site/vite-docs-cn/logo.svg', url: 'https://docs.onlystar.site/vite-docs-cn/' },
-      { title: 'Vue3', img: 'http://docs.onlystar.site/vue3-docs-cn/logo.svg', url: 'https://docs.onlystar.site/vue3-docs-cn/' },
-      { title: '工作文档', img: 'https://yun.duiba.com.cn/developer_new/images/new/icons/icon_jfsc.png', url: 'https://docs.onlystar.site/custom-work-docs/' },
       { title: 'Antd', img: 'https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png', url: 'https://ant.design/index-cn' },
-      { title: '编辑器', img: 'https://img.alicdn.com/tfs/TB1FFA1CFP7gK0jSZFjXXc5aXXa-214-200.png', url: 'https://ggeditor.com' },
-      { title: '石墨', img: 'https://gw.alipayobjects.com/zos/antfincdn/0b4HzOcEJY/Graphin.svg', url: 'https://graphin.antv.vision/' }
+      { title: '在线编辑器', img: 'https://c.staticblitz.com/assets/favicon_sb-861fe1b85c0dc928750c62de15fed96fc75e57ee366bd937bad17a3938917b3f.svg', url: 'https://stackblitz.com/' },
+      { title: 'tinypng', img: 'https://tinypng.com/images/favicon.ico', url: 'https://tinypng.com/' },
+      { title: 'uTools', img: 'https://res.u-tools.cn/website5/static/assets/favicon.png', url: 'https://www.u-tools.cn/' },
+      { title: '石墨文档', img: 'https://as.smgv.cn/from_qbox/favicon.ico', url: 'https://shimo.im/' },
+      { title: '慕课网', img: 'https://www.imooc.com/static/img/index-v3/icon/icon-hot.png', url: 'https://www.imooc.com/' }
     ] 
   }
 ]
@@ -109,7 +114,7 @@ const list = [
   color: rgba(255,255,255,0.60);
   font-size: 14px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   text-decoration: none;
 }
 .social-link .social-link-item:last-child {
