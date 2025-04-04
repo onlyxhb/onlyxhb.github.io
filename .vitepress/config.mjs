@@ -34,7 +34,7 @@ const search = () => {
 const nav = () => {
   return [
     { text: '首页', link: '/home' },
-    { text: '博客', link: '/blog' },
+    { text: '博客', link: '/blog/started' },
     { text: '为患者', link: '/patient' },
     {
       text: '医疗服务方',
@@ -95,7 +95,7 @@ export default defineConfig({
     search: search(),
     nav: nav(),
     sidebar: {
-      '/blog': { base: '/blog', items: sidebarBlog() },
+      '/blog/': { base: '/blog/', items: sidebarBlog() }
     },
     returnToTopLabel: '返回顶部',
     lightModeSwitchTitle: '切换到浅色模式',

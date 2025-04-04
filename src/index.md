@@ -13,7 +13,7 @@ hero:
       link: /home
     - theme: alt
       text: 博客
-      link: /blog
+      link: /blog/started
     - theme: alt
       text: GitHub
       link: https://github.com/onlyxhb/onlyxhb.github.io
