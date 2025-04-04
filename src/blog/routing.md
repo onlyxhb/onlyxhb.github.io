@@ -60,8 +60,6 @@ docs/getting-started.md  -->  /getting-started.html
 
 ### 源目录 {#source-directory}
 
-源目录是 Markdown 源文件所在的位置。默认情况下，它与项目根目录相同。但是，可以通过 [`srcDir`](../reference/site-config#srcdir) 配置选项对其进行配置。
-
 `srcDir` 选项是相对于项目根目录解析的。例如，对于 `srcDir: 'src'`，文件结构将如下所示：
 
 ```
@@ -92,8 +90,6 @@ src/getting-started.md  -->  /getting-started.html
 [Getting Started](./getting-started.md)
 [Getting Started](./getting-started.html)
 ```
-
-在[资源处理](./asset-handling)中了解有关链接到资源（例如图像）的更多信息。
 
 ### 链接到非 VitePress 页面 {#linking-to-non-vitepress-pages}
 
@@ -134,8 +130,6 @@ src/getting-started.md  -->  /getting-started.html
 - Netlify 和 GitHub Pages 是默认支持的。
 - Vercel 需要在 [vercel.json 中启用 cleanUrls 选项](https://vercel.com/docs/concepts/projects/project-configuration#cleanurls)。
 
-如果可以使用此功能，还可以启用 VitePress 自己的 [`cleanUrls`](../reference/site-config#cleanurls) 配置选项，以便：
-
 - 页面之间的入站链接是在没有 `.html` 扩展名的情况下生成的。
 - 如果当前路径以 `.html` 结尾，路由器将执行客户端重定向到无扩展路径。
 
@@ -173,8 +167,6 @@ src/getting-started.md  -->  /getting-started.html
 packages/pkg-a/src/pkg-a-docs.md  -->  /pkg-a/index.html
 packages/pkg-b/src/pkg-b-docs.md  -->  /pkg-b/index.html
 ```
-
-可以通过像这样配置 [`rewrites`](../reference/site-config#rewrites) 选项来实现此目的：
 
 ```ts [.vitepress/config.js]
 export default {
@@ -330,8 +322,6 @@ export default {
 - package name: {{ $params.pkg }}
 - version: {{ $params.version }}
 ```
-
-还可以通过 [`useData`](../reference/runtime-api#usedata) 运行时 API 访问当前页面的参数。这在 Markdown 文件和 Vue 组件中都可用：
 
 ```vue
 <script setup>
