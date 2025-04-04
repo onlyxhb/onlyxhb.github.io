@@ -34,7 +34,7 @@ const search = () => {
 const nav = () => {
   return [
     { text: '首页', link: '/home' },
-    { text: '博客', link: '/blog/started' },
+    { text: '博客', link: '/blog/started', activeMatch: '/blog/'  },
     { text: '为患者', link: '/patient' },
     {
       text: '医疗服务方',
@@ -61,7 +61,7 @@ const sidebarBlog = () => {
         { text: '部署', link: 'deploy' }
       ]
     },
-    { text: '配置', link: 'config' }
+    { text: '配置', link: 'sitemap' }
   ]
 }
 
@@ -97,9 +97,31 @@ export default defineConfig({
     sidebar: {
       '/blog/': { base: '/blog/', items: sidebarBlog() }
     },
-    returnToTopLabel: '返回顶部',
+    editLink: {
+      pattern: 'https://github.com/onlyxhb/onlyxhb.github.io/edit/onlyxhb/src/:path',
+      text: '在 GitHub 上编辑此页面'
+    },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+    outline: {
+      label: '页面导航'
+    },
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'medium'
+      }
+    },
+    langMenuLabel: '多语言',
+    returnToTopLabel: '回到顶部',
+    sidebarMenuLabel: '菜单',
+    darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
+    skipToContentLabel: '跳转到内容'
   },
   srcDir: 'src',
   outDir: 'dist'
