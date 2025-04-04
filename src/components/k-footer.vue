@@ -87,7 +87,8 @@ const list = [
 
 <style>
 .custom-footer {
-  width: 100vw;
+  width: 100%;
+  text-align: left;
 }
 .custom-footer .footer-social {
   display: flex;
