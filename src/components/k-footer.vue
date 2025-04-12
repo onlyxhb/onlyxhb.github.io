@@ -5,7 +5,7 @@
         <span class="social-title">{{ item.title }}</span>
         <div class="social-link">
           <a v-for="(link, idx) in item.links" :key="idx" :href="link.url" target="_blank" class="social-link-item">
-            <img v-if="link.img" :src="link.img" class="item-img" />
+            <img v-if="link.img" :src="`/icons/${link.img}`" class="item-img" />
             <span>{{ link.title }}</span>
           </a>
         </div>
@@ -40,46 +40,46 @@ const list = [
   {
     title: '中文网',
     links: [
-      { title: 'mdn', img: 'https://developer.mozilla.org/favicon-48x48.bc390275e955dacb2e65.png', url: 'https://developer.mozilla.org/zh-CN/docs/Web' },
-      { title: 'w3c', img: 'https://7n.w3cschool.cn/statics/images/favicon.ico', url: 'https://www.w3cschool.cn/' },
-      { title: 'lodash', img: 'https://www.lodashrc.cn/img/favicon.png', url: 'https://www.lodashrc.cn/' },
-      { title: 'leetcode', img: 'http://assets.leetcode.cn/aliyun-lc-upload/users/leetcode-solution/avatar_1582018938.png', url: 'https://leetcode.cn/' },
-      { title: 'nest', img: 'https://docs.nestjs.com/favicon.ico', url: 'https://nest.nodejs.cn/' },
-      { title: 'nuxt', img: 'https://nuxt.zhcndoc.com/icon.png', url: 'https://nuxt.zhcndoc.com/' },
-      { title: 'next', img: 'https://nextjs.frontendx.cn/static/favicon/favicon.ico', url: 'https://nextjs.frontendx.cn/' },
-      { title: 'flutter', img: 'https://docs.flutter.cn/assets/images/cn/flutter-icon.png', url: 'https://flutter.cn/' },
-      { title: 'uTools', img: 'https://res.u-tools.cn/website5/static/assets/favicon.png', url: 'https://www.u-tools.cn/' }
+      { title: 'mdn', img: 'icon-mdn.png', url: 'https://developer.mozilla.org/zh-CN/docs/Web' },
+      { title: 'w3c', img: 'icon-w3c.ico', url: 'https://www.w3cschool.cn/' },
+      { title: 'lodash', img: 'icon-lodash.png', url: 'https://www.lodashrc.cn/' },
+      { title: 'leetcode', img: 'icon-leetcode.png', url: 'https://leetcode.cn/' },
+      { title: 'nest', img: 'icon-nest.ico', url: 'https://nest.nodejs.cn/' },
+      { title: 'nuxt', img: 'icon-nuxt.png', url: 'https://nuxt.zhcndoc.com/' },
+      { title: 'next', img: 'icon-next.ico', url: 'https://nextjs.frontendx.cn/' },
+      { title: 'flutter', img: 'icon-flutter.png', url: 'https://flutter.cn/' },
+      { title: 'uTools', img: 'icon-utools.png', url: 'https://www.u-tools.cn/' }
     ] 
   },
   {
     title: '帮助',
     links: [
-      { title: 'taro', img: 'https://docs.taro.zone/img/taro-logo_180.png', url: 'https://docs.taro.zone/docs/' },
-      { title: 'uniapp', img: 'https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/icon.png', url: 'https://uniapp.dcloud.net.cn/' },
-      { title: 'unibest', img: 'https://unibest.tech/favicon.ico', url: 'https://unibest.tech/' },
-      { title: 'electron-vite', img: 'https://cn.electron-vite.org/favicon.svg', url: 'https://cn.electron-vite.org/' },
-      { title: 'bootcdn', img: 'https://www.bootcdn.cn/assets/ico/favicon.ico', url: 'https://www.bootcdn.cn/' },
-      { title: 'deepseek', img: 'https://cdn.deepseek.com/chat/icon.png', url: 'https://chat.deepseek.com/' },
-      { title: 'kimi', img: 'https://statics.moonshot.cn/kimi-chat/favicon.ico', url: 'https://kimi.moonshot.cn/' },
-      { title: '文心一言', img: 'https://nlp-eb.cdn.bcebos.com/logo/favicon.ico', url: 'https://yiyan.baidu.com/' },
-      { title: '腾讯元宝', img: 'https://cdn-bot.hunyuan.tencent.com/logo.png', url: 'https://yuanbao.tencent.com/chat' },
-      { title: '扣子', img: 'https://lf-coze-web-cdn.coze.cn/obj/coze-web-cn/obric/coze/favicon.1970.png', url: 'https://www.coze.cn/' }
+      { title: 'taro', img: 'icon-taro.png', url: 'https://docs.taro.zone/docs/' },
+      { title: 'uniapp', img: 'icon-uniapp.png', url: 'https://uniapp.dcloud.net.cn/' },
+      { title: 'unibest', img: 'icon-unibest.ico', url: 'https://unibest.tech/' },
+      { title: 'electron-vite', img: 'icon-electron-vite.svg', url: 'https://cn.electron-vite.org/' },
+      { title: 'bootcdn', img: 'icon-bootcdn.ico', url: 'https://www.bootcdn.cn/' },
+      { title: 'deepseek', img: 'icon-deepseek.png', url: 'https://chat.deepseek.com/' },
+      { title: 'kimi', img: 'icon-kimi.ico', url: 'https://kimi.moonshot.cn/' },
+      { title: '文心一言', img: 'icon-yiyan.ico', url: 'https://yiyan.baidu.com/' },
+      { title: '腾讯元宝', img: 'icon-yuanbao.png', url: 'https://yuanbao.tencent.com/chat' },
+      { title: '扣子', img: 'icon-coze.png', url: 'https://www.coze.cn/' }
     ] 
   },
   {
     title: '更多',
     links: [
-      { title: 'Vue', img: 'https://cn.vuejs.org/logo.svg', url: 'https://cn.vuejs.org/' },
-      { title: 'React', img: 'https://zh-hans.react.dev/favicon-32x32.png', url: 'https://zh-hans.react.dev/' },
-      { title: 'webpack', img: 'https://webpack.js.org/icon_512x512.png', url: 'https://cn.vitejs.dev/' },
-      { title: 'Vite', img: 'https://cn.vitejs.dev/logo.svg', url: 'https://webpack.js.org/' },
-      { title: 'vitepress', img: 'https://vitepress.dev/vitepress-logo-mini.svg', url: 'https://vitepress.dev/zh/' },
-      { title: 'Antd', img: 'https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png', url: 'https://ant.design/index-cn' },
-      { title: '在线编辑器', img: 'https://c.staticblitz.com/assets/favicon_sb-861fe1b85c0dc928750c62de15fed96fc75e57ee366bd937bad17a3938917b3f.svg', url: 'https://stackblitz.com/' },
-      { title: 'tinypng', img: 'https://tinypng.com/images/favicon.ico', url: 'https://tinypng.com/' },
-      { title: '石墨文档', img: 'https://as.smgv.cn/from_qbox/favicon.ico', url: 'https://shimo.im/' },
-      { title: '慕课网', img: 'https://www.imooc.com/static/img/index-v3/icon/icon-hot.png', url: 'https://www.imooc.com/' },
-      { title: '微信公众号', img: 'https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico', url: 'https://mp.weixin.qq.com/' }
+      { title: 'Vue', img: 'icon-vuejs.svg', url: 'https://cn.vuejs.org/' },
+      { title: 'React', img: 'icon-reactjs.png', url: 'https://zh-hans.react.dev/' },
+      { title: 'webpack', img: 'icon-webpack.png', url: 'https://cn.vitejs.dev/' },
+      { title: 'Vite', img: 'icon-vite.svg', url: 'https://webpack.js.org/' },
+      { title: 'vitepress', img: 'icon-vitepress.svg', url: 'https://vitepress.dev/zh/' },
+      { title: 'Antd', img: 'icon-antd.png', url: 'https://ant.design/index-cn' },
+      { title: '在线编辑器', img: 'icon-stackblitz.svg', url: 'https://stackblitz.com/' },
+      { title: 'tinypng', img: 'icon-tinypng.ico', url: 'https://tinypng.com/' },
+      { title: '石墨文档', img: 'icon-smgv.ico', url: 'https://shimo.im/' },
+      { title: '慕课网', img: 'icon-imooc.png', url: 'https://www.imooc.com/' },
+      { title: '微信公众号', img: 'icon-wechat.ico', url: 'https://mp.weixin.qq.com/' }
     ] 
   }
 ]

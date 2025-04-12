@@ -18,7 +18,7 @@ hero:
       text: GitHub
       link: https://github.com/onlyxhb/onlyxhb.github.io
   image:
-      src: /logo-large.svg
+      src: /icons/logo-large.svg
       width: 200
       alt: 随波逐流
 
