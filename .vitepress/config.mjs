@@ -35,16 +35,15 @@ const nav = () => {
   return [
     { text: '首页', link: '/home' },
     { text: '博客', link: '/blog/started', activeMatch: '/blog/'  },
-    { text: '为患者', link: '/patient' },
+    { text: '福利', link: '/welfare' },
     {
-      text: '医疗服务方',
+      text: '其他',
       items: [
-        { text: '医生', link: '/doctor' }, 
-        { text: '医院', link: '/hospital' },
-        { text: '创新医药器械', link: '/tool' }
+        { text: '健康旅程管理', link: '/travel' }, 
+        { text: '一站式就医安排', link: '/arrange' },
+        { text: '医疗数据智能应用', link: '/intelligence' }
       ] 
     },
-    { text: '支付方', link: '/payment' },
     { text: '关于我们', link: '/about' }
   ]
 }

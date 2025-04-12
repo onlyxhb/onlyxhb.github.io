@@ -16,32 +16,32 @@
 .Layout.custom-page .VPDoc,
 .Layout.custom-page .VPDoc .container,
 .Layout.custom-page .VPDoc .container .content {
+  margin: 0;
   padding: 0;
   width: 100%;
   max-width: initial;
   text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
 }
-
 .Layout.custom-page .VPDoc .container .content .custom-img {
-  display: inline-block;
-  max-width: 100%;
+  position: relative;
+  left: 50%;
+  display: block;
+  margin: 0 auto;
+  max-width: initial;
+  transform: translateX(-50%);
 }
-
-.Layout.custom-page .VPDoc .container .content  .gray {
-  width: 100%;
-  background-color: #f8f9f9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.Layout.custom-page .VPDoc .container .content  .title {
+.Layout.custom-page .VPDoc .container .content  .custom-title {
   color: #121212;
   font-size: 48px;
   font-weight: 600;
 }
-
+.Layout.custom-page .VPDoc .container .content  .custom-subtitle {
+  color: #666;
+  font-size: 20px;
+  font-weight: 400;
+}
 .Layout.custom-page .VPDocFooter {
   display: none;
 }

@@ -5,15 +5,13 @@ aside: false
 footer: false
 ---
 
-<k-image src="bg-home-001" height="500"  />
-<k-image src="bg-home-002" width="845" top="60" bottom="55"  />
-<div class="gray">
-  <k-gap gap="64" />
-  <p class="title">我们的服务</p>
-  <k-image src="bg-home-003" width="1027" top="46"  />
-  <k-image src="bg-home-004" width="1027" top="158"  />
-  <k-image src="bg-home-005" width="1027" top="158"  />
-  <k-image src="bg-home-006" width="1027" top="158" bottom="60"  />
-</div>
-<k-image src="bg-home-007" width="942" top="80"  />
+<k-image src="bg-home-001" width="1920" height="700" />
+<k-gap gap="120" />
+<p class="custom-title">个人医疗福利及保障管理解决方案</p>
+<k-gap gap="80" />
+<k-slide type="home" />
+<k-image src="bg-home-006" width="1920" height="1296"  />
+<k-image src="bg-home-007" width="1920" height="850"  />
+<k-image src="bg-home-008" width="1920" height="1015"  />
+<k-image src="bg-home-009" width="1920" height="1172"  />
 <k-footer />

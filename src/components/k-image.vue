@@ -1,5 +1,5 @@
 <template>
-  <img :src="`https://www.kkkf.cn/images/${src}.png`" class="custom-img" :style="wrapStyle" />
+  <img :src="`/images/${src}.png`" class="custom-img" :style="wrapStyle" />
 </template>
 
 <script setup>
